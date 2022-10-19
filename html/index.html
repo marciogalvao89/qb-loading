@@ -11,9 +11,9 @@
         <script src="https://cdn.jsdelivr.net/npm/quasar@2.1.0/dist/quasar.umd.prod.js" defer></script>
         <script src="app.js" defer></script>
     </head>
-    <!-- This is where you want to replace with your audio -->
+    <!-- This is where you want to replace with your audio 
 
-    <audio autoplay loop id="audio" src="/assets/audio/noncopyright.mp3"></audio>
+    <audio autoplay loop id="audio" src="/assets/audio/noncopyright.mp3"></audio>-->
 
     <body>
         <div id="loading-main" style="min-height: auto;">
@@ -184,7 +184,7 @@
 
                         <!-- This is where you want to replace with your logo -->
 
-                        <img class="cursor-none brand-logo" src="/assets/branding/qbcore.svg"></img>
+                        <img class="cursor-none brand-logo" src="/assets/branding/logo.png"></img>
                         <q-space></q-space>
                         <q-btn :ripple="false" flat size="xl" icon="downloading" color="white" @click="download = true"></q-btn>
                         <div class="loadingbar">
@@ -195,7 +195,7 @@
                 </q-card>
             </div>
 
-            <q-dialog no-shake v-model="download" position="bottom">
+            <!--<q-dialog no-shake v-model="download" position="bottom">
                 <q-card style="max-width: 400px; margin-left: 50vw; margin-bottom: 13vh;">
                     <q-card-section>
                         <div style="white-space: pre-wrap;" class="text-h6">
@@ -211,7 +211,7 @@
                         <q-btn flat label="Hide details" color="detailbutton" v-close-popup></q-btn>
                     </q-card-actions>
                 </q-card>
-            </q-dialog>
+            </q-dialog>-->
 
             <q-dialog no-shake v-model="settings" position="right">
                 <q-card style="max-width: 300px; margin-right: 3.4vw; top: 20vh!important;">
